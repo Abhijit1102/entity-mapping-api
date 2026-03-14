@@ -349,7 +349,7 @@ Follow these steps to get the project running locally.
 ### Step 1 — Clone the Repository
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/Abhijit1102/entity-mapping-api.git
 cd entity-mapping-api
 ```
 
@@ -406,7 +406,7 @@ The server will start at `http://127.0.0.1:8000/`.
 
 ```bash
 # 1. Clone the repo
-git clone <your-repo-url>
+git clone https://github.com/Abhijit1102/entity-mapping-api.git
 cd entity-mapping-api
 
 # 2. Create & activate virtual environment
