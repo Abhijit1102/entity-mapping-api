@@ -40,9 +40,9 @@ urlpatterns = [
     path('api/courses/', include('course.urls')),
     path('api/certifications/', include('certification.urls')),
 
-#     path('api/vendor-product-mappings/', include('vendor_product_mapping.urls')),
-#     path('api/product-course-mappings/', include('product_course_mapping.urls')),
-#     path('api/course-certification-mappings/', include('course_certification_mapping.urls')),
+    path('api/vendor-product-mappings/', include('vendor_product_mapping.urls')),
+    path('api/product-course-mappings/', include('product_course_mapping.urls')),
+    path('api/course-certification-mappings/', include('course_certification_mapping.urls')),
 
     # Swagger
     path('swagger/', schema_view.with_ui('swagger', cache_timeout=0)),
